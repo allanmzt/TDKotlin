@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_cocktails"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_black_48dp"
+        android:title="@string/bottom_navigation_menu_cocktails"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_compte"
+        android:enabled="true"
+        android:icon="@drawable/baseline_local_drink_black_48dp"
+        android:title="@string/bottom_navigation_menu_compte"
+        app:showAsAction="ifRoom" />
+</menu>
